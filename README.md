@@ -64,9 +64,13 @@
 ## 파일 구조
 
 your-repo-name/
+
 │
+
 ├── css/
+
 │ └── style.css
+
 │
 ├── fonts/
 │ └── NanumSquareB.ttf
