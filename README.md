@@ -41,7 +41,7 @@
 
 1. 리포지토리를 클론합니다:
     ```bash
-    git clone https://github.com/yourusername/your-repo-name.git
+    git clone https://github.com/hzzeong/hzzeong.github.io.git
     ```
 
 2. 프로젝트 디렉토리로 이동합니다:
