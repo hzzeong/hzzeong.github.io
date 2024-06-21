@@ -73,21 +73,37 @@ your-repo-name/
 
 │
 ├── fonts/
+
 │ └── NanumSquareB.ttf
+
 │
+
 ├── img/
+
 │ ├── profile.jpg
+
 │ ├── signlanguage.png
+
 │ ├── schedule.png
+
 │ ├── baseball.png
+
 │ ├── game.png
+
 │ └── ticket.png
+
 │
+
 ├── js/
+
 │ └── script.js
+
 │
+
 ├── index.html
+
 ├── projects.html
+
 └──  README.md 
 
 ## 연락처
