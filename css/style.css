@@ -33,7 +33,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: black; /* 바로가기 글씨를 흰색으로 변경 */
+  color: black;
   text-decoration: none;
 }
 
@@ -52,29 +52,29 @@ nav ul li a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* 화면 높이를 100%로 설정 */
-  background-color: #a1d9f8; /* 배경색을 연한 파란색으로 설정 */
+  height: 100vh;
+  background-color: #a1d9f8;
 }
 
 .about-card h2 {
-  font-size: 2rem; /* 제목 글씨 크기 조정 */
+  font-size: 2rem; 
   margin-bottom: 1rem;
 }
 
 .card {
   display: flex;
   align-items: center;
-  padding: 2rem; /* 카드 내부 여백을 늘려서 크기를 키움 */
+  padding: 2rem; 
   border: 1px solid #ddd;
   border-radius: 8px;
   background-color: white;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  width: 550px; /* 카드의 너비를 설정 */
-  height: 300px; /* 카드의 높이를 자동으로 설정 */
+  width: 550px; 
+  height: 300px; 
 }
 
 .profile-picture {
-  width: 250px; /* 이미지 크기 조정 */
+  width: 250px; 
   height: 300px;
   border-radius: 8px;
   object-fit: cover;
@@ -82,7 +82,7 @@ nav ul li a:hover {
 }
 
 .card-info {
-  font-size: 1.2rem; /* 글씨 크기 조정 */
+  font-size: 1.2rem; 
   color: #333;
 }
 
@@ -92,7 +92,7 @@ nav ul li a:hover {
 }
 
 .card-info p:first-child {
-  color: #333; /* 이름 부분 글씨 색상 설정 */
+  color: #333; 
 }
 
 h2 {
@@ -109,7 +109,7 @@ h2 {
 .skill {
   margin: 1rem;
   position: relative;
-  text-align: center; /* 퍼센트 텍스트를 가운데 정렬 */
+  text-align: center; 
 }
 
 .chart {
@@ -127,11 +127,11 @@ h2 {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 70px;  /* 원형 그래프의 두께를 줄이기 위해 크기 조정 */
-  height: 70px; /* 원형 그래프의 두께를 줄이기 위해 크기 조정 */
+  width: 70px;  
+  height: 70px; 
   border-radius: 50%;
   transform: translate(-50%, -50%);
-  z-index: 1; /* 가운데 흰색 원이 글씨를 덮지 않도록 z-index 설정 */
+  z-index: 1; 
 }
 
 .chart-bar {
@@ -142,8 +142,8 @@ h2 {
   top: 0;
   left: 0;
   background: conic-gradient(#f9ea49ed calc(var(--deg) * 1deg), lightgray 0deg);
-  transform: rotate(0deg); /* 12시 방향을 시작점으로 설정 */
-  z-index: 0; /* 그래프가 글씨 뒤에 위치하도록 z-index 설정 */
+  transform: rotate(0deg); 
+  z-index: 0; 
 }
 
 .chart-text {
@@ -154,7 +154,7 @@ h2 {
   font-size: 1rem;
   font-weight: bold;
   color: #333;
-  z-index: 2; /* 글씨가 항상 보이도록 z-index 설정 */
+  z-index: 2; 
 }
 
 .percentage {
@@ -208,12 +208,11 @@ ul li {
   margin-bottom: 0.5rem;
 }
 
-/* New CSS for spacing between sections */
 section {
-  margin-bottom: 10rem; /* 각 섹션의 아래쪽 여백을 늘려 간격 조정 */
+  margin-bottom: 10rem; 
 }
 
 #career, #contact {
-  margin-top: 10rem; /* 특정 섹션의 위쪽 여백을 늘려 간격 조정 */
+  margin-top: 10rem; 
   text-align: center;
 }
