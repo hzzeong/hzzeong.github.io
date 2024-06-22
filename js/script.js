@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 const targetSection = document.getElementById(targetId);
 
                 window.scrollTo({
-                    top: targetSection.offsetTop - 90, // 헤더 높이를 고려하여 스크롤 위치 조정
+                    top: targetSection.offsetTop - 90, 
                     behavior: 'smooth'
                 });
             }
